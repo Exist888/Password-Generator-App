@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    background: #1c1c1c;
+}
+
+.elements-container {
+    max-width: 470px;
+    margin: 50px auto;
+    background: #1f2937;
+    padding: 50px 70px;
+    border-radius: 2px;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+    max-width: 360px;
+}
+
+span {
+    color: #4adf86;
+}
+
+p {
+    font-size: 22px;
+    color: #d5d4d8;
+}
+
+button {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+    background: #10b981;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background: #fff;
+    color: #10b981;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+#divider-line {
+    margin: 50px 0 46px 0;
+    height: 2px;
+    background: #2f3e53;
+    border-radius: 2px;
+}
+
+#passwords-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.password {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 12px;
+    background: #273549;
+    width: 220px;
+    text-align: center;
+    color: #55f991;
+    margin: 4px 0;
+    min-width: 120px;
+    font-size: 16px;
+}
+
+.copy-btn {
+    margin-top: 2px;
+    color: #1f2937;
+    font-size: 13px;
+    font-weight: 600;
+    background: #7691b2;
+}
+
+.copy-btn:hover {
+    background: #a4b6cc;
+    color: #1f2937;
+}

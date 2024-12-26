@@ -13,6 +13,7 @@
 - Iterating through array using For Loop to apply Math object functions until desired length is reached
 - Using increment operator to add newly generated characters to previous characters until password reaches 15 in length
 - Resetting empty strings each time button is clicked to avoid having multiple passwords in same container
+- Translating Figma design file into CSS code to imitate given visual design
 <br/> <br/>
 
 ##

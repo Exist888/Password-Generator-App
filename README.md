@@ -1,7 +1,8 @@
 # __Basketball Scoreboard__
+- Solo Project for Frontend Web Dev Training at <a href="https://v2.scrimba.com">__Scrimba__</a><br/>
 - Easily and quickly generate two random 15-character passwords
 - Languages: JavaScript, CSS, and HTML
-- Check out my app at <a href="https://password-generator-exist888.netlify.app/">__password-generator-exist888.netlify.app__</a>.
+- Check out my app at <a href="https://password-generator-exist888.netlify.app/">__password-generator-exist888.netlify.app__</a>
 
 <img src="https://github.com/user-attachments/assets/827d8d38-7636-44c5-ab7d-a341041b340b" alt="Project Hero Image" width="620">
 <br/>

@@ -30,17 +30,25 @@ p {
     color: #d5d4d8;
 }
 
+#button-and-dropdown-container {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
 button {
-    margin-top: 30px;
     font-family: "Inter", sans-serif;
+    height: 50px;
+    min-width: 228px;
     background: #10b981;
     color: #fff;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-weight: 600;
     transition: transform 0.2s;
+    margin: 0 25px 20px 0;
 }
 
 button:hover {
@@ -50,6 +58,32 @@ button:hover {
 
 button:active {
     transform: scale(0.97);
+}
+
+#dropdown-container {
+    padding-top: 8px;
+}
+
+select {
+    height: 35px;
+    border: none;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 105px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background: #d5d4d8;
+    text-align: center;
+}
+
+select:hover {
+    background: #fff;
+}
+
+#dropdown-guide-text {
+    font-size: 13px;
+    margin-top: 8px;
 }
 
 #divider-line {
@@ -81,15 +115,76 @@ button:active {
     font-size: 16px;
 }
 
+#first-password {
+    margin-right: 25px;
+}
+
 .copy-btn {
-    margin-top: 2px;
+    min-width: 75px;
+    height: 35px;
+    margin-top: 5px;
     color: #1f2937;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
     background: #7691b2;
+    padding: 5px 10px;
 }
 
 .copy-btn:hover {
     background: #a4b6cc;
     color: #1f2937;
+}
+
+#pitch-section {
+    margin-top: 150px;
+}
+
+h2 {
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+
+#divider-line-2 {
+    margin-bottom: 30px;
+    height: 5px;
+    background: #2f3e53;
+    border-radius: 2px;
+    width: 130px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 30px 0 8px 0;
+}
+
+#pitch-section p {
+    font-size: 15px;
+    margin: 8px 0 0 0;
+}
+
+a {
+    color: #55f991;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 15px;
+    color: #d5d4d8;
+    font-family: "Inter", sans-serif;
+    margin: 4px 0;
+    background-image: url("images/checkmark.png");
+    background-repeat: no-repeat;
+    background-position: left-center;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+#pitch-section button {
+    margin-top: 40px;
 }

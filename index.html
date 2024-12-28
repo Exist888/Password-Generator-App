@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Password Generator App</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -8,17 +9,59 @@
     </head>
     <body>
         <div class="elements-container">
-            <h1>Generate a <span>random password</span></h1>
-            <p>Never use an insecure password again.</p>
-            <button onclick="generatePassword()">Generate passwords</button>
-            <div id="divider-line"></div>
-            <div id="passwords-container">
-                <div class="single-password-container">
-                    <p id="first-password" class="password"></p>
+            <div id="main-section">
+                <h1>Generate a <span>random password</span></h1>
+                <p>Never use an insecure password again.</p>
+                <div id="button-and-dropdown-container">
+                    <button onclick="generatePassword()">Generate passwords</button>
+                    <div id="dropdown-container">
+                        <select id="length-dropdown" onchange="getPasswordLength()">
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15" selected>15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                        </select>
+                        <p id="dropdown-guide-text">Password length</p>
+                    </div>
                 </div>
-                <div class="single-password-container">
-                    <p id="second-password" class="password"></p>
+                <div id="divider-line"></div>
+                <div id="passwords-container">
+                    <div class="single-password-container">
+                        <p id="first-password" class="password"></p>
+                        <button class="copy-btn" id="copy-on-click-1" onclick="copyOnClick1()">
+                            📄 Copy
+                        </button>
+                    </div>
+                    <div class="single-password-container">
+                        <p id="second-password" class="password"></p>
+                        <button class="copy-btn" id="copy-on-click-2" onclick="copyOnClick2()">
+                            📄 Copy
+                        </button>
+                    </div>
                 </div>
+            </div>
+            <div id="pitch-section">
+                <h2><span>Boost your online security</span> with a random password today</h2>
+                <div id=divider-line-2></div>
+                <h3>Stop hackers</h3>
+                    <p>Did you know it could take a hacker only 25 seconds to break into a weak password, and over 34,000 years to break into a strong 12-character password? Take a look at this fascinating 
+                        <a href="https://www.komando.com/tips/cybersecurity/check-your-password-strength/?srsltid=AfmBOorm8_p6xjJsnWF7RzKvyvi1POu-hv41Q2BeNKvOJnYSQpauNqGx" target="_blank">
+                    password security chart</a>
+                    to see how vital strong passwords are today.</p>
+                <h3>Strengthen your passwords</h3>
+                    <ul>
+                        <li>Combine letters, numbers, and special characters</li>
+                        <li>Use both uppercase and lowercase letters</li>
+                        <li>Make your passwords at least 12 characters long</li>
+                        <li>Avoid discernible words or patterns</li>
+                        <li>Use one unique password per online account</li>
+                    </ul>
+                <h3>Rely on our app - it's free and easy</h3>
+                    <p>Use our simple app now to generate a unique password for each online account, and say hello to enhanced internet security today.</p>
+                <a href="https://password-generator-exist888.netlify.app/"><button onclick="generatePassword()">Generate passwords</button></a>
             </div>
         </div>
         <script src="index.js"></script>

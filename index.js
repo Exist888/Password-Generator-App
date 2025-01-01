@@ -26,7 +26,6 @@ function copyOnClick1() {
         alert("Please generate a password first. 😊");
     } else {
         let copyText1 = document.getElementById("first-password").innerText;
-        console.log(copyText1);
         navigator.clipboard.writeText(copyText1).then(() => {
             alert("Password successfully copied!");
         }).catch(err => {
@@ -40,7 +39,6 @@ function copyOnClick2() {
         alert("Please generate a password first. 😊");
     } else {
         let copyText2 = document.getElementById("second-password").innerText;
-        console.log(copyText2);
         navigator.clipboard.writeText(copyText2).then(() => {
             alert("Password successfully copied!");
         }).catch(err => {

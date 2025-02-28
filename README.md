@@ -10,8 +10,6 @@
 ## __Skills Applied__
 - Accessing Clipboard API to enable "copy" buttons
 - Exception Handling to ensure app communicates to visitors whether access to Clipboard API succeeds or not
-- Integrating user selection from HTML select tags into JavaScript For Loop to enable customized password length
-- Invoking JavaScript functions with "onclick" html button attribute
 - Implementing "textContent" and "getElementById" to manipulate the DOM and alter html content 
 - Using Math.floor() and Math.random() functions to generate an integer that will function as random index point
 - Iterating through array using For Loop to apply Math object functions until desired length is reached

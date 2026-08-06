@@ -1,5 +1,6 @@
 # __Password Generator App__
 Coded from scratch while modifying designs provided by Scrimba as part of Scrimba's Frontend Web Development course.
+<br></br>
 - Easily and quickly generate two random password and choose your preferred length.
 - Languages: JavaScript, CSS, and HTML.
 - Ready to try it out? Go to <a href="https://password-generator-exist888.netlify.app/">__password-generator-exist888.netlify.app__</a>.

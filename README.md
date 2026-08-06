@@ -1,5 +1,5 @@
 # __Password Generator App__
-Coded from scratch using and modifying design files provided by Scrimba as part of Scrimba's Frontend Web Development course.
+Coded from scratch using and modifying designs provided by Scrimba as part of Scrimba's Frontend Web Development course.
 <br></br>
 - Easily and quickly generate two random password and choose your preferred length.
 - Languages: JavaScript, CSS, and HTML.
